@@ -1,0 +1,30 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Открытие контейнеров Overwatch</title>
+    <link rel="stylesheet" href="containers.css">
+</head>
+<body>
+    <h1>Открытие контейнеров Overwatch</h1>
+    
+    <button id="open-box">Открыть контейнер (доступно: <span id="box-count">5</span>)</button>
+    
+    <div class="loot-box"></div>
+    <div id="loot-display"></div>
+
+    <button id="toggle-inventory">Открыть инвентарь</button>
+    
+    <div class="inventory">
+        <h2>Инвентарь героев</h2>
+        
+        <!-- Сетка персонажей, разделенных по ролям -->
+        <div id="characters-container"></div>
+        
+        <!-- Список предметов выбранного персонажа -->
+        <div id="inventory-list"></div>
+    </div>
+
+    <script src="containers.js"></script>
+</body>
+</html>
